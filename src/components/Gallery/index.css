@@ -1,0 +1,38 @@
+/* Write your code here. */
+.list-container {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.active-img {
+  height: 80%;
+  width: 80%;
+}
+
+@media screen and (max-width: 576px) {
+  .active-img {
+    height: 200px;
+    width: 300px;
+  }
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

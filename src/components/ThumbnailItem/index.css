@@ -1,0 +1,14 @@
+/* Write your code here. */
+.each-thumbnail {
+  margin: 0px 20px 0px 0px;
+}
+.show-opacity {
+  opacity: 0.5;
+}
+.thumbnail-img {
+  cursor: pointer;
+}
+button {
+  background-color: transparent;
+  border-color: transparent;
+}
