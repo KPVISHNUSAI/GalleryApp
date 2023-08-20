@@ -110,7 +110,7 @@ class Gallery extends Component {
         </div>
         <div className="list">
           <h1>Nature Photography</h1>
-          <p>Nature Photography by Rahul</p>
+          <p>Nature Photography by Vishnu</p>
           <ul className="list-container">
             {imagesList.map(eachList => (
               <ThumbnailItem
